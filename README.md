@@ -3,9 +3,9 @@
 ## Project Setup
 
 1. Install XAMPP from https://www.apachefriends.org/
-2. Clone this repository to `C:\xampp\htdocs\quickpos` (Windows) or `/Applications/XAMPP/htdocs/quickpos` (Mac)
+2. Clone this repository to `C:\xampp\htdocs\quickpos` (Windows), `/Applications/XAMPP/htdocs/quickpos` (Mac), or `/opt/lampp/htdocs/spm_04` (Linux)
 3. Start Apache in XAMPP Control Panel
-4. Open browser and go to: `http://localhost/quickpos/index.php`
+4. Open browser and go to: `http://localhost/spm_04/index.php`
 
 ## Branch Strategy
 
