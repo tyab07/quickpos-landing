@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - QuickPOS</title>
+
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Page-Specific Styles (same folder as this file) -->
+    <link rel="stylesheet" href="thank-you.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Auto Redirect (Optional but recommended) -->
+    <script>
+        setTimeout(() => {
+            window.location.href = "index.php";
+        }, 5000); // redirect after 5 seconds
+    </script>
+</head>
+<body>
+
+<section class="thank-you">
+    <div class="container thank-you-box">
+
+        <div class="success-icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+
+        <h1>Thank You!</h1>
+
+        <p class="message">
+            Your message has been sent successfully.<br>
+            Our team will get back to you shortly.
+        </p>
+
+        <p class="redirect-note">
+            You will be redirected to the homepage in a few seconds...
+        </p>
+
+        <div class="thank-actions">
+            <a href="index.php" class="btn-primary">Back to Home</a>
+            <a href="index.php#features" class="btn-outline">Explore Features</a>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
